@@ -7,8 +7,6 @@
 // import AudioLogo from "../assets/AudioLogo.png";
 // import LH from "../assets/local_hospital.png";
 
-
-
 // const MacBookPro141 = () => {
 
 //     // const uploadForm = document.querySelector('.InputMP3')
@@ -17,7 +15,7 @@
 //     //     let file = e.target.uploadFile.files[0]
 //     // })
 //     // useEffect(() => {
-        
+
 //     //  }, []);
 
 //   return (
@@ -60,12 +58,11 @@
 //               <div className="group-frame">
 //                 <div className="group-frame">
 //                   <div className="group-frame">
-                    
+
 //                     <div className="group-inner" />
-                    
+
 //                         <input type="file" accept="audio/*"  className="InputMP3" required/>
-                    
-                    
+
 //                   </div>
 //                 </div>
 //                 <div className="upload-parent">
@@ -96,7 +93,6 @@
 // };
 
 // export default MacBookPro141;
-
 
 // import React, { useState } from "react";
 // import "../styles/Audichecker.css";
@@ -203,15 +199,14 @@
 
 // export default MacBookPro141;
 
+import React, { useState } from 'react';
+import '../styles/Audichecker.css';
 
-import React, { useState } from "react";
-import "../styles/Audichecker.css";
-
-import logo from "../assets/logo.png";
-import upload from "../assets/upload.png";
-import record from "../assets/record.png";
-import AudioLogo from "../assets/AudioLogo.png";
-import LH from "../assets/local_hospital.png";
+import logo from '../assets/logo.png';
+import upload from '../assets/upload.png';
+import record from '../assets/record.png';
+import AudioLogo from '../assets/AudioLogo.png';
+import LH from '../assets/local_hospital.png';
 
 const MacBookPro141 = () => {
   const [audioFile, setAudioFile] = useState(null);
@@ -276,7 +271,11 @@ const MacBookPro141 = () => {
                 </div>
                 <div className="upload-parent">
                   <img className="upload-icon1" alt="" src={upload} />
-                  <div className="record-audio">Upload Audio</div>
+                  <div className="record-audio">
+                    {`
+                    ${audioFile ? audioFile.name : 'Upload Audio'}
+                    `}
+                  </div>
                 </div>
               </div>
               <div className="or">or</div>
@@ -288,7 +287,7 @@ const MacBookPro141 = () => {
           <div className="group-child3" />
           <div className="local-hospital-parent">
             <img className="local-hospital-icon" alt="" src={LH} />
-            <div className={`diagnose${audioFile ? " diagnose-active" : ""}`}>
+            <div className={`diagnose${audioFile ? ' diagnose-active' : ''}`}>
               Diagnose
             </div>
           </div>
