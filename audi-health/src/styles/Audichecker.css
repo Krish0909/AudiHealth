@@ -292,4 +292,23 @@
     color: var(--color-gray-100);
     font-family: var(--font-inter);
   }
+
+
+
+  /* newly added */
+  .diagnose {
+    /* Define styles for the button */
+    /* background-color: black; */
+  }
+  
+  .diagnose:hover {
+    /* Define styles for the button on hover */
+    /* background-color: black; */
+  }
+  
+  .diagnose-active {
+    /* Define styles for the button when audio file is uploaded */
+    background-color: black;
+  }
+  
   
