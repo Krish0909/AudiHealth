@@ -1,18 +1,32 @@
 import "../styles/Audichecker.css";
+import { useState, useEffect } from "react";
+
 import logo from "../assets/logo.png";
 import upload from "../assets/upload.png";
 import record from "../assets/record.png";
 import AudioLogo from "../assets/AudioLogo.png";
+import LH from "../assets/local_hospital.png";
 
 
-const Audichecker = () => {
+
+const MacBookPro141 = () => {
+
+    // const uploadForm = document.querySelector('.InputMP3')
+    // uploadForm.addEventListener('submit', function(e) {
+    //     e.preventDefault()
+    //     let file = e.target.uploadFile.files[0]
+    // })
+    // useEffect(() => {
+        
+    //  }, []);
+
   return (
+    // <form action="/upload">
     <div className="macbook-pro-14-2">
       <div className="macbook-pro-14-2-child" />
       <div className="menu1">
-        <a href="/home" className="home1">Home</a>
+      <a href="/home" className="home1">Home</a>
         <a href="/audichecker" className="audichecker1">AudiChecker</a>
-        
       </div>
       <img className="logo-icon2" alt="" src={logo} />
       <div className="audihealth">AudiHealth</div>
@@ -32,7 +46,7 @@ const Audichecker = () => {
               </div>
             </div>
             <div className="group-parent2">
-              <div className="group-parent3">
+              <div className="group-parent3" >
                 <div className="group-frame">
                   <div className="group-frame">
                     <div className="group-inner" />
@@ -46,7 +60,12 @@ const Audichecker = () => {
               <div className="group-frame">
                 <div className="group-frame">
                   <div className="group-frame">
+                    
                     <div className="group-inner" />
+                    
+                        <input type="file" accept="audio/*"  className="InputMP3" required/>
+                    
+                    
                   </div>
                 </div>
                 <div className="upload-parent">
@@ -65,14 +84,15 @@ const Audichecker = () => {
             <img
               className="local-hospital-icon"
               alt=""
-              src="/local-hospital.svg"
+              src={LH}
             />
             <div className="diagnose">Diagnose</div>
           </div>
         </div>
       </div>
     </div>
+    // </form>
   );
 };
 
-export default Audichecker;
+export default MacBookPro141;
