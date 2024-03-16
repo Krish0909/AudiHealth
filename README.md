@@ -1,5 +1,7 @@
 # AudiHealth - Voice Pathology Detection
 
+![AudiHealth Logo](logo.png)
+
 AudiHealth is a machine learning-based application designed to detect voice pathologies, specifically vocal polyp and laryngitis, using audio data. Leveraging the power of VGGish for feature extraction and a Liquid State Machine (LSM) model for classification, AudiHealth aims to provide early detection capabilities, potentially improving patient outcomes.
 
 ## Table of Contents
