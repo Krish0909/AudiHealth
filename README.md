@@ -66,8 +66,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contact
 
-Krishnan Vignesh - krishnanvignesh148@gmail.com
-Sahil Brid - bridsahil007@gmail.com
+- Krishnan Vignesh - krishnanvignesh148@gmail.com
+- Sahil Brid - bridsahil007@gmail.com
 
 Project Link: [https://github.com/yourusername/AudiHealth](https://github.com/Krish0909/AudiHealth)
 
