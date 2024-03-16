@@ -22,10 +22,10 @@
 }
 .macbook-pro-14-1-child {
   position: absolute;
-  top: -95px;
-  left: 756px;
+  top: 290px;
+  left: 740px;
   width: 1203.8px;
-  height: 1145px;
+  height: 400px;
   object-fit: contain;
 }
 .in-a-world {
@@ -162,16 +162,34 @@
   width: 351px;
   height: 208px;
 }
+
+.fact1 {
+  margin-left: 5px;  
+  font-size: 16px;
+}
+
 .mention-features-and-refernces-inner,
 .mention-features-and-refernces-item {
   top: 378px;
   width: 168px;
   height: 164px;
 }
+
+.fact2 {
+  margin-left: 4px;
+  font-size: 14px;
+}
+
 .mention-features-and-refernces-inner {
   left: 187px;
   width: 164px;
 }
+
+.fact3 {
+  margin-left: 4px;
+  font-size: 15px;
+}
+
 .mention-features-and-refernces-child1,
 .mention-features-and-refernces-child2,
 .rectangle-div {
@@ -183,16 +201,34 @@
   width: 350px;
   height: 392px;
 }
+
+.fact4 {
+  margin-left: 4px;
+  font-size: 16px;
+}
+
 .mention-features-and-refernces-child1,
 .mention-features-and-refernces-child2 {
   top: 149px;
   left: 736px;
   height: 141px;
 }
+
+.fact5 {
+  margin-left: 8px;
+  font-size: 16px;
+}
+
 .mention-features-and-refernces-child2 {
   top: 310px;
   height: 232px;
 }
+
+.fact6 {
+  margin-left: 4px;
+  font-size: 16px;
+}
+
 .blah-blah-vary,
 .we-offer-the {
   position: absolute;
@@ -280,7 +316,10 @@
   letter-spacing: -0.17px;
   line-height: 19px;
   color: #828282;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 198px;
 }
 .group-parent {
@@ -316,7 +355,7 @@
   width: 100%;
   position: relative;
   background-color: var(--color-white);
-  height: 2862px;
+  height: 2450px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-5xl-2);
@@ -325,7 +364,7 @@
 }
 
 .footimp-div {
-  position: absolute;
+  position: relative;
   top: 1700px;
 }
 

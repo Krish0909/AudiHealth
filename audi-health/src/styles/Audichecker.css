@@ -301,7 +301,8 @@
   /* color: white; */
   padding: 10px 20px;
   margin-top: 5px;
-  background-color: #ddd;
+  background-color: var(--color-lavenderblush);
+  border-radius: var(--br-8xs);
   border: none;
   font-size: large;
   color: black;
@@ -339,4 +340,13 @@
   position: relative;
   top: 560px;
   color: var(--color-black);
+}
+
+.graph-container {
+  position: relative;
+  top: 700px;
+  left: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

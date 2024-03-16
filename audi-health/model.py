@@ -3,6 +3,8 @@ import tensorflow_hub as hub
 import numpy as np
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import LabelEncoder
+import librosa
+import matplotlib.pyplot as plt
 
 # Load the pretrained VGGish model
 vggish_model_url = "https://tfhub.dev/google/vggish/1"
@@ -58,9 +60,18 @@ def predict_with_interpretable_probabilities(audio_file_path):
     allocated_probabilities = {label_mapping[i]: f"{probability * 100:.2f}%" for i, probability in enumerate(prediction[0])}
     # print(allocated_probabilities)
     allocated_probabilities_sorted = dict(sorted(allocated_probabilities.items(), key=lambda item: item[1], reverse=True))
+
+    y, sr = librosa.load(audio_file_path)
+    D = librosa.amplitude_to_db(librosa.stft(y), ref=np.max)
+    plt.figure(figsize=(12, 8))
+    librosa.display.specshow(D, sr=sr, x_axis='time', y_axis='log')
+    plt.colorbar(format='%+2.0f dB')
+    plt.title('Spectrogram of the Audio File')
+    # plt.show()
+
     return predicted_class_label, allocated_probabilities_sorted[predicted_class_label]
 
-# predicted_class_label, allocated_probabilities = predict_with_interpretable_probabilities('Mar 15, 8.12 PM​.wav')
+# predicted_class_label, allocated_probabilities = predict_with_interpretable_probabilities('Sample_1(vocal polyp).wav')
 # if predicted_class_label != 'Healthy':
 #     print(f'You are at an {allocated_probabilities} risk of having {predicted_class_label}')
 # else:

@@ -327,6 +327,7 @@ const MacBookPro141 = () => {
   const [isRecording, setIsRecording] = useState(false);
   const [key, setKey] = useState(0);
   const mediaRecorder = useRef(null);
+  const [plotPath, setPlotPath] = useState(null);
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];
@@ -421,6 +422,7 @@ const MacBookPro141 = () => {
             if (response.ok) {
                 const result = await response.json();
                 setPredictions(result);
+                setPlotPath(result.PlotPath);
             } else {
                 console.error('Prediction failed');
             }
@@ -556,6 +558,14 @@ const MacBookPro141 = () => {
           </audio>
         </div>
       )}
+
+      <div>
+        {plotPath && (
+            <div className="graph-container">
+              <img src={plotPath} alt="Prediction Plot" className="prediction-plot" />
+            </div>
+          )}
+      </div>
     </div>
   );
 };

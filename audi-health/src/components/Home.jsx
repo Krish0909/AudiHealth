@@ -1,5 +1,6 @@
 import "../styles/Home.css";
 import Mac from "../assets/Mac.png"
+import undraw from "../assets/undraw_Recording_re_5xyq.png"
 import logo from "../assets/logo.png"
 import health from "../assets/dihealth.png"
 import footimp from "../assets/footimp.png"
@@ -15,7 +16,7 @@ const Home = () => {
       <img
         className="macbook-pro-14-1-child"
         alt=""
-        src={Mac}
+        src={undraw}
       />
       <div className="in-a-world-where-misinformatio-parent">
         <div className="in-a-world">
@@ -41,17 +42,24 @@ const Home = () => {
       <img className="logo-icon1" alt="" src={logo} />
       <div className="mention-features-and-refernces">
         <div className="mention-features-and-refernces-child" >
-          <p>fsdgdhfbvf fdhfghnbv</p>
+          <p className="fact1">Did you know that approximately 7.5 million people in India suffer from voice disorders at any given time? That's roughly 1 in every 63 people!</p>
         </div>
         <div className="mention-features-and-refernces-item" >
-          <img src={india} alt="" width={30}/>
+          <p className="fact2">Studies have shown that people with untreated voice disorders are often perceived as less competent, less trustworthy, and less hireable than those with healthy voices.</p>
         </div>
         <div className="mention-features-and-refernces-inner" >
-          <img src={india} alt="" width={30}/>
+          <p className="fact3">AudiHealth enables early detection of voice disorders, improving treatment outcomes and quality of life through timely intervention.</p>
         </div>
-        <div className="rectangle-div" />
-        <div className="mention-features-and-refernces-child1" />
-        <div className="mention-features-and-refernces-child2" />
+        <div className="rectangle-div" >
+          <p className="fact4">
+Thanks to breakthroughs in technology such as machine learning and artificial intelligence, the diagnosis of voice disorders has reached unprecedented levels of accuracy and efficiency. AudiHealth harnesses these advancements, employing state-of-the-art techniques to offer users dependable and prompt insights into their vocal health. This innovative approach ensures that individuals can access reliable assessments of their voice health, facilitating early detection and proactive management of potential disorders for enhanced well-being.</p>
+        </div>
+        <div className="mention-features-and-refernces-child1" >
+          <p className="fact5">Voice disorders can have a significant psychological impact, leading to feelings of frustration, embarrassment, and social isolation.</p>
+        </div>
+        <div className="mention-features-and-refernces-child2" >
+          <p className="fact6">Our voice is not just a means of communication but also a reflection of our identity and personality. By prioritizing vocal health and seeking timely intervention when needed, individuals can preserve their voice and continue to express themselves confidently and effectively.</p>
+        </div>
         <div className="blah-blah-vary">
         Proudly developed in India  <img className="india" src={ india } alt="" width={30}/>
         </div>
@@ -60,7 +68,7 @@ const Home = () => {
         </div>
       </div>
       <div className="footimp-div">
-        <img className="footimp" src={ footimp } alt="" />
+        <img className="footimp" src={ footimp } alt="" width={1380} />
       </div>
       <div className="vocalcare">AudiHealth</div>
       <div className="group-parent">

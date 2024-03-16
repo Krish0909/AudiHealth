@@ -4,6 +4,7 @@ import os
 import pandas as pd
 import numpy as np
 from model import *
+import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 CORS(app)
@@ -27,17 +28,23 @@ def audio():
                 audio_file.save(temp_path)
 
                 predicted_class_label, allocated_probabilities = predict_with_interpretable_probabilities(temp_path)
+                plt_path = f'{audio_file.filename} plot.png'
+                plt.savefig(plt_path)
+
                 if predicted_class_label == 'Laryngitis':
                     result = {
-                            "Prediction": 'You are at an' + ' ' + allocated_probabilities + ' ' 'risk of having' + ' ' + predicted_class_label
+                            "Prediction": 'You are at an' + ' ' + allocated_probabilities + ' ' 'risk of having' + ' ' + predicted_class_label,
+                            "PlotPath": plt_path
                         }
                 elif predicted_class_label == 'Healthy':
                     result = {
-                            "Prediction": 'Your voice is' + ' ' + allocated_probabilities + ' ' + predicted_class_label
+                            "Prediction": 'Your voice is' + ' ' + allocated_probabilities + ' ' + predicted_class_label,
+                            "PlotPath": plt_path
                         }
                 elif predicted_class_label == 'Vocal Polyp':
                     result = {
-                            "Prediction": 'You are at an' + ' ' + allocated_probabilities + ' ' 'risk of having' + ' ' + predicted_class_label
+                            "Prediction": 'You are at an' + ' ' + allocated_probabilities + ' ' 'risk of having' + ' ' + predicted_class_label,
+                            "PlotPath": plt_path
                         }
                 
                 # result = {
