@@ -23,6 +23,7 @@ def audio():
             if audio_file:
                 # Save the uploaded file to a temporary location
                 temp_path = 'temp.wav'
+                # audio_file.save(temp_path)
                 audio_file.save(temp_path)
 
                 predicted_class_label, allocated_probabilities = predict_with_interpretable_probabilities(temp_path)
@@ -32,7 +33,7 @@ def audio():
                         }
                 elif predicted_class_label == 'Healthy':
                     result = {
-                            "Prediction": 'Your voice is' + ' ' + allocated_probabilities + ' ' +  predicted_class_label
+                            "Prediction": 'Your voice is' + ' ' + allocated_probabilities + ' ' + predicted_class_label
                         }
                 elif predicted_class_label == 'Vocal Polyp':
                     result = {

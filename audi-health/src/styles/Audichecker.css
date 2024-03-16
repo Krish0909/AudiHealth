@@ -135,7 +135,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 287.1px;
+  width: 687.1px;
   height: 58.7px;
 }
 .upload-icon {
@@ -148,7 +148,7 @@
 .record-audio {
   position: absolute;
   top: 0;
-  left: 38.7px;
+  left: 238.7px;
   line-height: 37px;
   font-weight: 600;
   display: flex;
@@ -185,8 +185,8 @@
   width: 287.1px;
 }
 .upload-icon1 {
-  top: 14.7px;
-  left: 0;
+  top: 11.2px;
+  left: 200px;
   width: 31px;
   height: 28.4px;
   overflow: hidden;
@@ -301,9 +301,13 @@
   /* color: white; */
   padding: 10px 20px;
   margin-top: 5px;
+  background-color: #ddd;
+  border: none;
+  font-size: large;
+  color: black;
   /* border-radius: 5px; */
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: 0.3s;
   /* Define styles for the button */
   /* background-color: black; */
 }
@@ -311,16 +315,17 @@
 .diagnose:hover {
   /* color: black; */
   /* background-color: white; */
-  font-size: larger;
+  background-color: var(--color-deeppink-100);
+  color: white;
   /* background-color: #0056b3; */
   /* Define styles for the button on hover */
   /* background-color: black; */
 }
 
-.diagnose-active {
+/* .diagnose-active {
   /* Define styles for the button whesn audio file is uploaded */
   /* background-color: black; */
-}
+/* } */
 
 .Predictions {
   position: relative;

@@ -5,7 +5,7 @@
 }
 .take-a-free-test-wrapper {
   position: absolute;
-  top: 660px;
+  top: 690px;
   left: 100px;
   border-radius: 12px;
   background-color: var(--color-deeppink);
@@ -30,7 +30,7 @@
 }
 .in-a-world {
   position: absolute;
-  top: 231px;
+  top: 255px;
   left: 0;
   letter-spacing: 0.3px;
   line-height: 22px;
@@ -89,7 +89,7 @@
   width: 693px;
   height: 319px;
   font-size: 20px;
-  color: var(--color-gray-100);
+  color: var(--color-black);
 }
 .macbook-pro-14-1-item {
   position: absolute;
@@ -197,7 +197,9 @@
 .we-offer-the {
   position: absolute;
   line-height: 19.49px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .blah-blah-vary {
   top: 0;
@@ -321,3 +323,13 @@
   color: var(--color-black);
   font-family: var(--font-inter);
 }
+
+.footimp-div {
+  position: absolute;
+  top: 1700px;
+}
+
+.india {
+  margin-left: 10px;
+}
+

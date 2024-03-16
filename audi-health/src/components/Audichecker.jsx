@@ -359,12 +359,51 @@ const MacBookPro141 = () => {
     }
   };
 
+  // const startRecording = async () => {
+  //   try {
+  //      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  //      mediaRecorder.current = new MediaRecorder(stream);
+  //      mediaRecorder.current.start();
+   
+  //      mediaRecorder.current.ondataavailable = async (e) => {
+  //        // Send the audio data to the server
+  //        await uploadAudioChunk(e.data);
+  //      };
+   
+  //      mediaRecorder.current.onstop = () => {
+  //        console.log('Recording stopped');
+  //      };
+   
+  //      setIsRecording(true);
+  //   } catch (error) {
+  //      console.error('Error starting recording:', error);
+  //   }
+  //  };
+
   const stopRecording = () => {
     if (mediaRecorder.current && mediaRecorder.current.state === 'recording') {
       mediaRecorder.current.stop();
       setIsRecording(false);
     }
   };
+
+  // const uploadAudioChunk = async (chunk) => {
+  //   const formData = new FormData();
+  //   formData.append('audio', chunk);
+   
+  //   try {
+  //      const response = await fetch('http://127.0.0.1:5000/audio', {
+  //        method: 'POST',
+  //        body: formData,
+  //      });
+   
+  //      if (!response.ok) {
+  //        console.error('Upload failed');
+  //      }
+  //   } catch (error) {
+  //      console.error('Error during upload:', error);
+  //   }
+  //  };
 
   const handlePrediction = async () => {
     if (audioFile) {
@@ -436,7 +475,7 @@ const MacBookPro141 = () => {
               </div>
             </div>
             <div className="group-parent2">
-              <div className="group-parent3">
+              {/* <div className="group-parent3">
                 <div className="group-frame">
                   <div className="group-frame">
                     <div className="group-inner" />
@@ -450,7 +489,7 @@ const MacBookPro141 = () => {
                     Record Audio
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="group-frame">
                 <div className="group-frame">
                   <div className="group-frame">
@@ -475,7 +514,7 @@ const MacBookPro141 = () => {
                   </div>
                 </div>
               </div>
-              <div className="or">or</div>
+              {/* <div className="or">or</div> */}
             </div>
           </div>
           <div className="group-child2" />
