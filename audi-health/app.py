@@ -25,10 +25,23 @@ def audio():
                 temp_path = 'temp.wav'
                 audio_file.save(temp_path)
 
-                prediction = predict(temp_path)
-                result = {
-                        "Prediction": prediction
-                    }
+                predicted_class_label, allocated_probabilities = predict_with_interpretable_probabilities(temp_path)
+                if predicted_class_label == 'Laryngitis':
+                    result = {
+                            "Prediction": 'You are at an' + ' ' + allocated_probabilities + ' ' 'risk of having' + ' ' + predicted_class_label
+                        }
+                elif predicted_class_label == 'Healthy':
+                    result = {
+                            "Prediction": 'Your voice is' + ' ' + allocated_probabilities + ' ' +  predicted_class_label
+                        }
+                elif predicted_class_label == 'Vocal Polyp':
+                    result = {
+                            "Prediction": 'You are at an' + ' ' + allocated_probabilities + ' ' 'risk of having' + ' ' + predicted_class_label
+                        }
+                
+                # result = {
+                #     "Prediction": prediction
+                # }
                 os.remove(temp_path)
                 print(result)
                 return jsonify(result)

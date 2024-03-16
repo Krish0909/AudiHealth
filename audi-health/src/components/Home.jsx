@@ -8,7 +8,7 @@ const Home = () => {
     <div className="macbook-pro-14-1">
       <img src="../assets/logo.png" alt="" />
       <div className="take-a-free-test-wrapper">
-        <button type="submit" className="take-a-free"><a href="/audichecker" style={{color: 'white', textDecoration: 'none'}}>Take a FREE TEST</a></button>
+        <div className="take-a-free">Take a FREE TEST</div>
       </div>
       <img
         className="macbook-pro-14-1-child"

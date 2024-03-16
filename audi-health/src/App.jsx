@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./components/Home.jsx"
 import Audichecker from './components/Audichecker.jsx';
-import AudioPlay from './components/AudioPlay.jsx';
 
 
 function App() {
