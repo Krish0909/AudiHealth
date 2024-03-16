@@ -1,0 +1,327 @@
+.take-a-free {
+  position: relative;
+  line-height: 19.49px;
+  font-weight: 600;
+  font-size: 22px;
+  background-color: #E7046C;
+  color: #fef2f7;
+  border: none;
+}
+.take-a-free-test-wrapper {
+  position: absolute;
+  top: 660px;
+  left: 100px;
+  border-radius: 12px;
+  background-color: var(--color-deeppink);
+  width: 226px;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: var(--color-white);
+}
+.macbook-pro-14-1-child {
+  position: absolute;
+  top: -95px;
+  left: 756px;
+  width: 1203.8px;
+  height: 1145px;
+  object-fit: contain;
+}
+.in-a-world {
+  position: absolute;
+  top: 231px;
+  left: 0;
+  letter-spacing: 0.3px;
+  line-height: 22px;
+  display: inline-block;
+  width: 684px;
+}
+.diagnose-health-through {
+  font-weight: 600;
+  font-size: 2.45rem;
+}
+.span {
+  color: var(--color-mediumslateblue);
+}
+.audio,
+.span1 {
+  font-size: var(--font-size-27xl-9);
+  font-family: var(--font-kashafa);
+  color: var(--color-mediumvioletred);
+}
+.span1 {
+  color: var(--color-mediumslateblue);
+}
+.diagnose-health-through-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 86.1px;
+  display: inline-block;
+  width: 693px;
+  height: 86px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.logo-icon {
+  position: relative;
+  width: 80.8px;
+  height: 116px;
+  top: 7.3rem;
+  left: 5rem;
+}
+.a-dihealth {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  font-size: 83.9px;
+  letter-spacing: 16.1px;
+  line-height: 153.98px;
+  font-family: var(--font-lemon-milk);
+  color: var(--color-deeppink);
+  white-space: pre-wrap;
+}
+.in-a-world-where-misinformatio-parent {
+  position: absolute;
+  top: 311px;
+  left: 100px;
+  width: 693px;
+  height: 319px;
+  font-size: 20px;
+  color: var(--color-gray-100);
+}
+.macbook-pro-14-1-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-sm) var(--br-sm);
+  background-color: #fef2f7;
+  backdrop-filter: blur(24.2px);
+  border-bottom: 1px solid rgba(255, 175, 208, 0.7);
+  box-sizing: border-box;
+  width: 1512px;
+  height: 95px;
+}
+.audichecker,
+.home {
+  text-decoration: none;
+
+  width: 124.2px;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 51.18px;
+  font-weight: 500;
+  display: inline-block;
+  height: 50px;
+  flex-shrink: 0;
+}
+.home{
+  color: #E7046C;
+}
+.audichecker {
+  width: 177.3px;
+}
+.menu {
+   display: flex;
+  flex-direction: row;
+}
+.audichecker{
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: #929292;
+}
+.menu {
+  position: absolute;
+  height: 1.75%;
+  top: 0.73%;
+  bottom: 97.52%;
+  left: calc(50% + 398px);
+  width: 302px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--color-deeppink);
+}
+.logo-icon1 {
+  position: absolute;
+  top: 32px;
+  left: 100px;
+  width: 25.8px;
+  height: 37px;
+}
+.mention-features-and-refernces-child,
+.mention-features-and-refernces-inner,
+.mention-features-and-refernces-item {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gainsboro);
+  width: 351px;
+  height: 208px;
+}
+.mention-features-and-refernces-inner,
+.mention-features-and-refernces-item {
+  top: 378px;
+  width: 168px;
+  height: 164px;
+}
+.mention-features-and-refernces-inner {
+  left: 187px;
+  width: 164px;
+}
+.mention-features-and-refernces-child1,
+.mention-features-and-refernces-child2,
+.rectangle-div {
+  position: absolute;
+  top: 150px;
+  left: 367px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gainsboro);
+  width: 350px;
+  height: 392px;
+}
+.mention-features-and-refernces-child1,
+.mention-features-and-refernces-child2 {
+  top: 149px;
+  left: 736px;
+  height: 141px;
+}
+.mention-features-and-refernces-child2 {
+  top: 310px;
+  height: 232px;
+}
+.blah-blah-vary,
+.we-offer-the {
+  position: absolute;
+  line-height: 19.49px;
+  display: inline-block;
+}
+.blah-blah-vary {
+  top: 0;
+  left: calc(50% - 406px);
+  font-weight: 600;
+  width: 812px;
+  height: 26px;
+}
+.we-offer-the {
+  top: 49px;
+  left: calc(50% - 332px);
+  font-size: 18px;
+  color: var(--color-gray-100);
+  text-align: center;
+  width: 664px;
+  height: 46px;
+}
+.mention-features-and-refernces {
+  position: absolute;
+  top: 1001px;
+  left: 213px;
+  width: 1086px;
+  height: 542px;
+  font-size: 36px;
+}
+.factfinder,
+.vocalcare {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.vocalcare {
+  top: 36px;
+  left: 145px;
+  line-height: 19.49px;
+  color: var(--color-mediumvioletred);
+  width: 133px;
+  height: 22px;
+}
+.factfinder {
+  height: 38.64%;
+  width: 100%;
+  top: 61.36%;
+  left: 0;
+  letter-spacing: -0.17px;
+  line-height: 34.8px;
+}
+.vector-icon {
+  position: absolute;
+  height: 61.25%;
+  top: 0;
+  right: 6.63%;
+  bottom: 38.75%;
+  left: 1.5rem;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.factfinder-parent {
+  
+  position: absolute;
+  height: 56.05%;
+  width: 42.68%;
+  top: 0;
+  right: 28.54%;
+  bottom: 43.95%;
+  left: 28.79%;
+}
+.hackanova-hackathon-thakur {
+  margin: 0;
+}
+.hackanova-hackathon-thakur-container {
+  position: absolute;
+  height: 43.95%;
+  top: 56.05%;
+  left: calc(50% - 99px);
+  font-size: var(--font-size-smi);
+  letter-spacing: -0.17px;
+  line-height: 19px;
+  color: #828282;
+  display: inline-block;
+  width: 198px;
+}
+.group-parent {
+  position: absolute;
+  height: 5.49%;
+  width: 13.1%;
+  top: 91.47%;
+  right: 43.52%;
+  bottom: 3.04%;
+  left: 43.39%;
+  text-align: center;
+  font-size: 16.5px;
+  color: #161616;
+}
+.instagram,
+.span2 {
+  white-space: pre-wrap;
+}
+.span2 {
+  font-weight: bolder;
+  color: var(--color-deeppink);
+}
+.instagram-twitter-container {
+  position: absolute;
+  top: 2792px;
+  left: calc(50% - 109px) ;
+  font-size: var(--font-size-smi);
+  letter-spacing: -0.17px;
+  line-height: 19px;
+  text-align: center;
+}
+.macbook-pro-14-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 2862px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl-2);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

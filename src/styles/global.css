@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kashafa:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=LEMON+MILK:wght@400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kashafa:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=LEMON+MILK:wght@400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-lemon-milk: "LEMON MILK";
+  --font-kashafa: Kashafa;
+
+  /* font sizes */
+  --font-size-smi: 13px;
+  --font-size-5xl-2: 24.2px;
+  --font-size-27xl-9: 46.9px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-dodgerblue: #4e8dfa;
+  --color-gray-100: rgba(0, 0, 0, 0.6);
+  --color-mediumvioletred: #a20b6f;
+  --color-gainsboro: #d9d9d9;
+  --color-deeppink: #e7046c;
+  --color-mediumslateblue: #1652f0;
+
+  /* Border radiuses */
+  --br-sm: 14px;
+}
+
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-lemon-milk: "LEMON MILK";
+  --font-kashafa: Kashafa;
+
+  /* font sizes */
+  --font-size-smi: 13px;
+  --font-size-5xl-2: 24.2px;
+  --font-size-lg: 18px;
+  --font-size-27xl-9: 46.9px;
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+  --font-size-4xl: 23px;
+
+  /* Colors */
+  --no-change-white: #fff;
+  --color-black: #000;
+  --color-dodgerblue: #4e8dfa;
+  --color-gray-100: #929292;
+  --color-gray-200: rgba(0, 0, 0, 0.1);
+  --color-gray-300: rgba(0, 0, 0, 0.6);
+  --color-mediumvioletred-100: #a20b6f;
+  --color-mediumvioletred-200: rgba(162, 11, 111, 0.25);
+  --color-gainsboro: #d9d9d9;
+  --color-deeppink-100: #e7046c;
+  --color-deeppink-200: rgba(231, 4, 108, 0.05);
+  --color-lavenderblush: #fef2f7;
+  --color-lightpink: rgba(255, 175, 208, 0.7);
+  --color-mediumslateblue: #1652f0;
+  --color-darkslategray: #3d3d3d;
+  --color-ghostwhite: #eff0f6;
+
+  /* Gaps */
+  --gap-0: 0px;
+
+  /* Border radiuses */
+  --br-sm: 14px;
+  --br-xl: 20px;
+  --br-3xs: 10px;
+  --br-8xs: 5px;
+  --br-5xs: 8px;
+}
