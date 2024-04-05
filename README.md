@@ -53,7 +53,7 @@ To use AudiHealth for voice pathology detection, follow these steps:
 1. Prepare your audio data in the required format(.wav).
 2. Run the feature extraction script:
 3. Train the model using the extracted features:
-4. 4. Use the trained model to predict voice pathologies:
+4. Use the trained model to predict voice pathologies:
 
 
 ## Contributing
