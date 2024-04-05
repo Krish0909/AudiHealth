@@ -1,7 +1,10 @@
 import "../styles/Home.css";
 import Mac from "../assets/Mac.png"
+import undraw from "../assets/undraw_Recording_re_5xyq.png"
 import logo from "../assets/logo.png"
 import health from "../assets/dihealth.png"
+import footimp from "../assets/footimp.png"
+import india from "../assets/india.png"
 
 const Home = () => {
   return (
@@ -13,14 +16,11 @@ const Home = () => {
       <img
         className="macbook-pro-14-1-child"
         alt=""
-        src={Mac}
+        src={undraw}
       />
       <div className="in-a-world-where-misinformatio-parent">
         <div className="in-a-world">
-          In a world where misinformation spreads like wildfire, discerning fact
-          from fiction has never been more crucial. In a world where
-          misinformation spreads like wildfire, discerning to yht masses here at
-          thr.
+          Welcome to AudiHealth, where your voice meets innovation! Whether you're a professional or value your voice, AudiHealth offers peace of mind and proactive care. Safeguard the beauty and resilience of your voice with us today!
         </div>
         <div className="diagnose-health-through-container">
           <span className="diagnose-health-through">{`Diagnose health through `}<span className="audio">Audio</span> </span>
@@ -41,21 +41,36 @@ const Home = () => {
       </div>
       <img className="logo-icon1" alt="" src={logo} />
       <div className="mention-features-and-refernces">
-        <div className="mention-features-and-refernces-child" />
-        <div className="mention-features-and-refernces-item" />
-        <div className="mention-features-and-refernces-inner" />
-        <div className="rectangle-div" />
-        <div className="mention-features-and-refernces-child1" />
-        <div className="mention-features-and-refernces-child2" />
+        <div className="mention-features-and-refernces-child" >
+          <p className="fact1">Did you know that approximately 7.5 million people in India suffer from voice disorders at any given time? That's roughly 1 in every 63 people!</p>
+        </div>
+        <div className="mention-features-and-refernces-item" >
+          <p className="fact2">Studies have shown that people with untreated voice disorders are often perceived as less competent, less trustworthy, and less hireable than those with healthy voices.</p>
+        </div>
+        <div className="mention-features-and-refernces-inner" >
+          <p className="fact3">AudiHealth enables early detection of voice disorders, improving treatment outcomes and quality of life through timely intervention.</p>
+        </div>
+        <div className="rectangle-div" >
+          <p className="fact4">
+Thanks to breakthroughs in technology such as machine learning and artificial intelligence, the diagnosis of voice disorders has reached unprecedented levels of accuracy and efficiency. AudiHealth harnesses these advancements, employing state-of-the-art techniques to offer users dependable and prompt insights into their vocal health. This innovative approach ensures that individuals can access reliable assessments of their voice health, facilitating early detection and proactive management of potential disorders for enhanced well-being.</p>
+        </div>
+        <div className="mention-features-and-refernces-child1" >
+          <p className="fact5">Voice disorders can have a significant psychological impact, leading to feelings of frustration, embarrassment, and social isolation.</p>
+        </div>
+        <div className="mention-features-and-refernces-child2" >
+          <p className="fact6">Our voice is not just a means of communication but also a reflection of our identity and personality. By prioritizing vocal health and seeking timely intervention when needed, individuals can preserve their voice and continue to express themselves confidently and effectively.</p>
+        </div>
         <div className="blah-blah-vary">
-          Blah Blah Vary Hnnad bbfjekn of hasksk good
+        Proudly developed in India  <img className="india" src={ india } alt="" width={30}/>
         </div>
         <div className="we-offer-the">
-          We offer the best offer that yuve seen in your whole offerable life
-          when it comes to us it rocks and rolls
+        AudiHealth revolutionizes vocal care globally, reflecting the nation's spirit of innovation and excellence.
         </div>
       </div>
-      <div className="vocalcare">VocalCare</div>
+      <div className="footimp-div">
+        <img className="footimp" src={ footimp } alt="" width={1530} />
+      </div>
+      <div className="vocalcare">AudiHealth</div>
       <div className="group-parent">
         <div className="factfinder-parent">
           <div className="factfinder">AudiHealth</div>
@@ -63,9 +78,9 @@ const Home = () => {
         </div>
         <div className="hackanova-hackathon-thakur-container">
           <p className="hackanova-hackathon-thakur">
-            HackaNova Hackathon, Thakur College, Kandivali
+            DevsHouse Hackathon<br></br> VIT, Chennai
           </p>
-          <p className="hackanova-hackathon-thakur">16th Feb 2024</p>
+          <p className="hackanova-hackathon-thakur">15th Mar 2024</p>
         </div>
       </div>
       <div className="instagram-twitter-container">
